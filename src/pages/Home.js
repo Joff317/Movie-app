@@ -7,23 +7,11 @@ import Search from "../components/Search";
 import { API_KEY_MOVIE } from "../config";
 
 const Home = () => {
-//   const [movie, setMovie] = useState();
-
-//   const PUBLIC_KEY = process.env.REACT_APP_API_KEY;
-
-//   useEffect(() => {
-//     axios.get(API_KEY_MOVIE + PUBLIC_KEY).then((res) => {
-//       setMovie(res.data.results);
-//       console.log(res.data.results);
-//     });
-//   }, []);
-
   return (
     <div className="home-page">
       <Header />
-      
-      <Search/>
-     
+
+      <Search />
     </div>
   );
 };
